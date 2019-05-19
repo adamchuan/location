@@ -1,0 +1,879 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "0d9bf80e86801d83c1d741de9a8ff686ac0eec1d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "location/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "iMobileDevice-net": "1.2.77"
+        },
+        "runtime": {
+          "location.dll": {}
+        }
+      },
+      "iMobileDevice-net/1.2.77": {
+        "runtime": {
+          "lib/netcoreapp2.0/iMobileDevice-net.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.77.52199"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/idevice_id": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceactivation": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicebackup": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicebackup2": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicecrashreport": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicedate": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicedebug": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicedebugserverproxy": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicediagnostics": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceenterrecovery": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceimagemounter": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceinfo": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceinstaller": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicename": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicenotificationproxy": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicepair": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/ideviceprovision": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicescreenshot": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/idevicesyslog": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/iproxy": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/irecovery": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libcrypto.1.0.0.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libideviceactivation.2.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libideviceactivation.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libimobiledevice-net-lighthouse.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libimobiledevice.6.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libimobiledevice.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libirecovery.2.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libirecovery.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libplist++.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libplist++.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libplist.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libplist.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libssl.1.0.0.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libusb-1.0.0.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libusbmuxd.4.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libusbmuxd.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libzip.5.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/plistutil": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/usbmuxd": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevice_id": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceactivation": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicebackup": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicebackup2": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicecrashreport": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicedate": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicedebug": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicedebugserverproxy": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicediagnostics": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceenterrecovery": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceimagemounter": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceinfo": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceinstaller": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicename": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicenotificationproxy": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicepair": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/ideviceprovision": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicescreenshot": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/idevicesyslog": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/iproxy": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/irecovery": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libideviceactivation.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libimobiledevice-net-lighthouse.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libimobiledevice.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libirecovery.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libplist++.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libplist.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libusbmuxd.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/plistutil": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/usbmuxd": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/getopt.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/idevice_id.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceactivation.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.0.320"
+          },
+          "runtimes/win-x64/native/ideviceactivation.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/idevicebackup.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicebackup2.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicecrashreport.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicedate.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicedebug.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicedebugserverproxy.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicediagnostics.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceenterrecovery.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceimagemounter.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceinfo.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceinstaller.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/idevicename.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicenotificationproxy.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicepair.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/ideviceprovision.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicescreenshot.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/idevicesyslog.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/imobiledevice-net-lighthouse.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/imobiledevice.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x64/native/iproxy.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/irecovery.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/irecovery.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libcharset.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libcurl.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.61.1.0"
+          },
+          "runtimes/win-x64/native/libeay32.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.2.16"
+          },
+          "runtimes/win-x64/native/libiconv.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libusb-1.0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.21.11198"
+          },
+          "runtimes/win-x64/native/libusb-usbdk-1.0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.21.11198"
+          },
+          "runtimes/win-x64/native/libusb0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libxml2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/lzma.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/plist.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/plist_cmp.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/plist_test.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/plistutil.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/pthreadsVC2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/readline.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/ssleay32.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.2.16"
+          },
+          "runtimes/win-x64/native/usbmuxd.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/usbmuxd.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.1.1.0"
+          },
+          "runtimes/win-x64/native/vcruntime140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.0.24406.0"
+          },
+          "runtimes/win-x64/native/zip.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.11.0"
+          },
+          "runtimes/win-x86/native/getopt.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/idevice_id.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceactivation.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.0.320"
+          },
+          "runtimes/win-x86/native/ideviceactivation.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/idevicebackup.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicebackup2.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicecrashreport.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicedate.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicedebug.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicedebugserverproxy.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicediagnostics.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceenterrecovery.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceimagemounter.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceinfo.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceinstaller.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/idevicename.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicenotificationproxy.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicepair.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/ideviceprovision.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicescreenshot.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/idevicesyslog.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/imobiledevice-net-lighthouse.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/imobiledevice.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.1.395"
+          },
+          "runtimes/win-x86/native/iproxy.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/irecovery.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/irecovery.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libcharset.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libcurl.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.61.1.0"
+          },
+          "runtimes/win-x86/native/libeay32.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.2.16"
+          },
+          "runtimes/win-x86/native/libiconv.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libusb-1.0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.21.11198"
+          },
+          "runtimes/win-x86/native/libusb-usbdk-1.0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.21.11198"
+          },
+          "runtimes/win-x86/native/libusb0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libxml2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/lzma.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/plist.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/plist_cmp.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/plist_test.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/plistutil.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/pthreadsVC2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/readline.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/ssleay32.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.2.16"
+          },
+          "runtimes/win-x86/native/usbmuxd.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/usbmuxd.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.1.1.0"
+          },
+          "runtimes/win-x86/native/vcruntime140.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.0.24406.0"
+          },
+          "runtimes/win-x86/native/zip.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/zlib1.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.2.11.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "location/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "iMobileDevice-net/1.2.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-33hAUYo1crjAdUlr7X4CISlAgkn8CjkmqM+3Iss5G5K3mWcrlERHM3eS2m2Eu9r5XCNq4qS3epAtqqldqxAStQ==",
+      "path": "imobiledevice-net/1.2.77",
+      "hashPath": "imobiledevice-net.1.2.77.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    }
+  }
+}
